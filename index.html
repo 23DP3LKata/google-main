@@ -3,29 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/css/main.css" rel="stylesheet">
     <title>Jauna cilne</title>
 </head>
 <body>
-    <header>
-        <span>Gmail</span>
-        <span>Attēli</span>
-        <div id="dots">
-
-        </div>
-
+    <header id="header-text">
+        <a href="">Gmail</a>
+        <a href="">Attēli</a>
+        <div id="dots">⋮⋮⋮</div>
     </header>
 
     <main>
-        <section>
-            <div id="google-s">
-                <span >G</span>
-                <span>o</span>
-                <span>o</span>
-                <span>g</span>
-                <span>l</span>
-                <span>e</span>
+        <section id="google-logo-section">
+            <div id="google-logo">
+                <span style="color: #4386f5;">G</span>
+                <span style="color: #ea4336;">o</span>
+                <span style="color: #fbbc05;">o</span>
+                <span style="color: #4386f5;">g</span>
+                <span style="color: #34a854;">l</span>
+                <span style="color: #ea4336;">e</span>
             </div>
         </section>
+        
+        <section id="search-section">
+            <input class="search" type="text" placeholder="Meklēt Google tīklā vai ievadīt URL">
+        </section>
+
+        <section id="add-site">
+            <button>Pievienot saīsni</button>
+        </section>
     </main>
+
+    <footer id="footer">
+        <div class="footer-pen">
+            <i class="fa fa-solid fa-pen"></i>
+            Pielāgot pārlūkprogrammu Chrome
+        </div>
+    </footer>
 </body>
 </html>
