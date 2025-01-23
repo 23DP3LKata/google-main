@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/src/css/main.css" rel="stylesheet">
-    <title>Jauna cilne</title>
+    <title> New page</title>
+    <link href="src/css/main.css" rel="stylesheet" >
 </head>
+
+
 <body>
-    <header id="header-text">
-        <a href="">Gmail</a>
-        <a href="">Attēli</a>
-        <div id="dots">⋮⋮⋮</div>
+    <header class="navigation">
+        <div class="navigation-text">
+            <a href="https://mail.google.com/">Gmail</a>
+            <a href="https://www.google.com/imghp">Images</a>
+            <div id="dots">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+        </div>
     </header>
 
+
     <main>
-        <section id="google-logo-section">
+        <section>
             <div id="google-logo">
-                <span style="color: #4386f5;">G</span>
-                <span style="color: #ea4336;">o</span>
-                <span style="color: #fbbc05;">o</span>
-                <span style="color: #4386f5;">g</span>
-                <span style="color: #34a854;">l</span>
-                <span style="color: #ea4336;">e</span>
+                <span style="color: #4285F4">G</span>
+                <span style="color: #EA4335">o</span>
+                <span style="color: #FBBC05">o</span>
+                <span style="color: #4285F4">g</span>
+                <span style="color: #34A853">l</span>
+                <span style="color: #EA4335">e</span>
             </div>
         </section>
-        
-        <section id="search-section">
-            <input class="search" type="text" placeholder="Meklēt Google tīklā vai ievadīt URL">
+
+        </section>
+        <section class="search">
+            <img src="src/images/search.png" class="search-mic-lens">
+            <div class="search-text">
+                <input placeholder="Search Google or type a URL" class="search-input">
+            </div>
+            <img src="src/images/mic.png" class="search-mic-lens">
+            <img src="src/images/lens.png" class="search-mic-lens">
         </section>
 
-        <section id="add-site">
-            <button>Pievienot saīsni</button>
-        </section>
+        <button class="plus"><img src="src/images/plus.png"></button>
+        <p class="text-shortcut">Add shortcut</p>
+
+
+        <div class="customize"><img src="src/images/pen.png" class="pen">Customize Chrome</div>
     </main>
-
-    <footer id="footer">
-        <div class="footer-pen">
-            <i class="fa fa-solid fa-pen"></i>
-            Pielāgot pārlūkprogrammu Chrome
-        </div>
-    </footer>
 </body>
 </html>
